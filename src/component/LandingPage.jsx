@@ -3,8 +3,8 @@ import landingImage from "../../images/landingImage.jpeg";
 
 export default function LandingPage() {
   return (
-    <div className="landingPage">
-      <div className="leftLanding textStyle">
+    <div className="landing-page">
+      <div className="left-landing text-style">
         <div>
           i am a full stack engineer passionate about creating inclusive
           applications
@@ -12,8 +12,8 @@ export default function LandingPage() {
         <br />
         <div>located in sf bay area</div>
       </div>
-      <div className="rightLanding">
-        <img className="landingImage" src={landingImage} alt="Landing Image" />
+      <div className="right-landing">
+        <img className="landing-image" src={landingImage} alt="Landing Image" />
       </div>
     </div>
   );
