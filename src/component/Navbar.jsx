@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [count, setCount] = useState(0);
@@ -8,9 +9,9 @@ function Navbar() {
       <div className="nav-bar text-style">
         <div className="nav-bar-left">tom hsieh👨🏻‍💻</div>
         <div className="nav-bar-right">
-          <div>home</div>
-          <div>play</div>
-          <div>info</div>
+          <Link to="/">home</Link>
+          <Link to="/about">about</Link>
+          <Link to="/project">project</Link>
         </div>
       </div>
     </>
