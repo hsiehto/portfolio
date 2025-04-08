@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+.social-button {
+  display: flex;
+  gap: 2px;
+}
+
+.linkedin-text {
+  color: #0077b5;
+}
+
+.linkedin-icon {
+  color: #0077b5;
+}
+
+.social-buttons-container {
+  display: flex;
+  align-content: center;
+  gap: 10px;
+}

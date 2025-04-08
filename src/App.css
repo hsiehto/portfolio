@@ -12,21 +12,6 @@ body {
   font-weight: 500;
 }
 
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 10px;
-}
-
-.nav-bar-left {
-  margin-left: 0;
-}
-
-.nav-bar-right {
-  display: flex;
-  gap: 10px;
-}
-
 .container {
   margin-top: 100px;
   display: flex;
@@ -41,8 +26,4 @@ body {
 
 .left-landing {
   width: 50%;
-}
-
-.git-hub-button {
-  margin-right: 10px;
 }

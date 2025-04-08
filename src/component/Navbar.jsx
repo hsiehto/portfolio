@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import "../component/Navbar.css";
 
 function Navbar() {
   const [count, setCount] = useState(0);
