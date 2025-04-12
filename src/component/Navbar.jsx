@@ -7,12 +7,20 @@ function Navbar() {
 
   return (
     <>
-      <div className="nav-bar text-style">
-        <div className="nav-bar-left">tom hsieh👨🏻‍💻</div>
-        <div className="nav-bar-right">
-          <Link to="/">home</Link>
-          <Link to="/about">about</Link>
-          <Link to="/project">project</Link>
+      <div className="navbar text-style">
+        <Link to="/">
+          <div className="navbar-left">tom hsieh👨🏻‍💻</div>
+        </Link>
+        <div className="navbar-right">
+          <Link to="/" className="navbar-link">
+            home
+          </Link>
+          <Link to="/about" className="navbar-link">
+            about
+          </Link>
+          <Link to="/project" className="navbar-link">
+            project
+          </Link>
         </div>
       </div>
     </>

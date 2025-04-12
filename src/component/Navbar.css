@@ -1,14 +1,18 @@
-.nav-bar {
+.navbar {
   display: flex;
   justify-content: space-between;
   padding-right: 10px;
 }
 
-.nav-bar-left {
+.navbar-left {
   margin-left: 0;
 }
 
-.nav-bar-right {
+.navbar-right {
   display: flex;
-  gap: 10px;
+  gap: 15px;
+}
+
+.navbar-link:hover {
+  text-decoration: line-through;
 }
