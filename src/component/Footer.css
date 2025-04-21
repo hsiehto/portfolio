@@ -1,6 +1,7 @@
 .footer {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
-  display: flex;
+  /* display: flex; */
   gap: 10px;
+  font-size: 10px;
 }
