@@ -1,6 +1,5 @@
 import React from "react";
 import landingImage from "../../images/landingImage.jpeg";
-import SocialButtons from "../component/SocialButtons";
 
 export default function Home() {
   return (

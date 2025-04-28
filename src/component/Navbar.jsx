@@ -18,9 +18,9 @@ function Navbar() {
           <Link to="/about" className="navbar-link">
             about
           </Link>
-          <Link to="/project" className="navbar-link">
+          {/* <Link to="/project" className="navbar-link">
             project
-          </Link>
+          </Link> */}
         </div>
       </div>
     </>
